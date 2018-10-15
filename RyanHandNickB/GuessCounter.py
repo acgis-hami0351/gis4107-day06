@@ -27,8 +27,10 @@ def main():
         print guessCount
         mylist.append(guessCount)
     print mylist
-    print '{} this is the min'.format (min (mylist))
-    print '{} this is the max'.format (max (mylist))
+    print '{} this is the min.'.format (min (mylist))
+    print '{} this is the max.'.format (max (mylist))
+    print '{} this is the average count.'.format (numpy.mean(mylist))
+
 
 
 
